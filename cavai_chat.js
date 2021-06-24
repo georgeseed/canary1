@@ -21,7 +21,7 @@
     })();
 
 window.onload = function() {
-	document.querySelector('#ayl_v_ckr_b').addEventListener('click', function() {
+	document.querySelector('.ayl_v_ckr_b').addEventListener('click', function() {
 			const openBubble = new MouseEvent('click');
 			document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
 	});
