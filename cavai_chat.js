@@ -19,15 +19,23 @@
         }
     })();
 
-    window.onload = function() {
-    	document.querySelector('.ayl_v_ckr_b').addEventListener('click', function() {
-    			const openBubble = new MouseEvent('click');
-    			document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
-    	});
+var target = document.querySelector('.ayl_v_ckr_b');
+var clickElement = document.createElement("div");
+clickElement.style.position = "absolute"
+clickElement.style.left = "0px"
+clickElement.style.top = "0px"
+clickElement.style.width = "100%"
+clickElement.style.height = "100%"
+target.appendChild(clickElement);
+var clickFunction = function() {
+    
+    /*cavai code for clicking*/
+    const openBubble = new MouseEvent('click');
+    document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
 
-    	document.querySelector('.ayl_v_ckr_b').addEventListener('touchstart', function() {
-    			const openBubble = new MouseEvent('click');
-    			document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
-    	});
-
-    };
+    event.preventDefault();
+    event.stopPropagation();
+    return false;
+}
+target.addEventListener('click', clickFunction, true);
+target.addEventListener('touchstart', clickFunction, true);
