@@ -1,24 +1,3 @@
-  (function() {
-        function async_load(target){
-            var s = target.document.createElement('script');
-            s.type = 'text/javascript';
-            s.id = 'cavai-script';
-            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.1627298841620-1627288268379-1626873718672-1621429862720-1617810558896-23fbff718ad66343089e7b871fec1c6e.min.js?bust=' + Date.now();
-            s.src = theUrl;
-            s.async = true;
-
-            s.dataset.clickMacro = 'MACRO_PLACEHOLDER';
-            s.dataset.bubbleAppearance = 'custom'
-
-            target.document.body.appendChild(s);
-        }
-        try {
-          async_load(window.top)
-        } catch (error) {
-          async_load(window)
-        }
-    })();
-
 var target = document.querySelector('.ayl_v_ckr_b');
 var clickElement = document.createElement("div");
 clickElement.style.position = "absolute"
@@ -39,3 +18,24 @@ var clickFunction = function() {
 }
 target.addEventListener('click', clickFunction, true);
 target.addEventListener('touchstart', clickFunction, true);
+
+(function() {
+        function async_load(target){
+            var s = target.document.createElement('script');
+            s.type = 'text/javascript';
+            s.id = 'cavai-script';
+            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.1627298841620-1627288268379-1626873718672-1621429862720-1617810558896-23fbff718ad66343089e7b871fec1c6e.min.js?bust=' + Date.now();
+            s.src = theUrl;
+            s.async = true;
+
+            s.dataset.clickMacro = 'MACRO_PLACEHOLDER';
+            s.dataset.bubbleAppearance = 'custom'
+
+            target.document.body.appendChild(s);
+        }
+        try {
+          async_load(window.top)
+        } catch (error) {
+          async_load(window)
+        }
+    })();
