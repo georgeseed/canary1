@@ -4,7 +4,7 @@ setTimeout(function(){
             var s = target.document.createElement('script');
             s.type = 'text/javascript';
             s.id = 'cavai-script';
-            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.1642773214410-1616524651034-1615298019471-8fc047351dede6fd6182aaa93551bfa6.min.js?bust=' + Date.now();
+            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.1642773583544-1607009155586-1606837433355-9d0e3b51c5550385332f9af00e62b366.min.js?bust=' + Date.now();
             s.src = theUrl;
             s.async = true;
             
