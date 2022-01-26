@@ -4,11 +4,12 @@ setTimeout(function(){
             var s = target.document.createElement('script');
             s.type = 'text/javascript';
             s.id = 'cavai-script';
-            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.1616524651034-1615298019471-8fc047351dede6fd6182aaa93551bfa6.min.js?bust=' + Date.now();
+            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.1642773214410-1616524651034-1615298019471-8fc047351dede6fd6182aaa93551bfa6.min.js?bust=' + Date.now();
             s.src = theUrl;
             s.async = true;
             
             s.dataset.clickMacro = 'MACRO_PLACEHOLDER';
+            s.dataset.bubbleAppearance = 'custom'
 
             target.document.body.appendChild(s);
         }
