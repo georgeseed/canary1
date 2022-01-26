@@ -9,7 +9,7 @@ setTimeout(function(){
             s.async = true;
             
             s.dataset.clickMacro = 'MACRO_PLACEHOLDER';
-            s.dataset.bubbleAppearance = 'default'
+            s.dataset.bubbleAppearance = 'custom'
 
             target.document.body.appendChild(s);
         }
