@@ -1,14 +1,14 @@
 setTimeout(function(){ 
-    (function() {
+(function() {
         function async_load(target){
             var s = target.document.createElement('script');
             s.type = 'text/javascript';
             s.id = 'cavai-script';
-            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.1642773214410-1616524651034-1615298019471-8fc047351dede6fd6182aaa93551bfa6.min.js?bust=' + Date.now();
+            var theUrl = 'https://cloud.cavai.com/js/converses/widgets/converse-widget.1645801059819-1645345464715-1645186359779-1644938611165-1644931259254-1644573371463-d5c984de2200a663f0f60313ef08c166.min.js?bust=' + Date.now();
             s.src = theUrl;
             s.async = true;
             
-            s.dataset.clickMacro = 'MACRO_PLACEHOLDER';
+            s.dataset.clickMacro = '%%c1;cpdir=';
             s.dataset.bubbleAppearance = 'custom'
 
             target.document.body.appendChild(s);
