@@ -8,7 +8,7 @@ setTimeout(function(){
             s.src = theUrl;
             s.async = true;
             
-            s.dataset.clickMacro = '%%c1;cpdir=';
+            s.dataset.clickMacro = '';
             s.dataset.bubbleAppearance = 'custom'
 
             target.document.body.appendChild(s);
