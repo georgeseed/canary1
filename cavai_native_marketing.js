@@ -31,7 +31,8 @@
         return false;
     }
 
-      window.onload = (event) => {
+    window.addEventListener('load', 
+      function(event) {
         console.log('page is fully loaded');
             try {
               setTimeout(function(){
@@ -55,4 +56,4 @@
               } catch (e) {
                 console.log(e)
               }
-            }
+            })
