@@ -41,6 +41,6 @@ winLoad(function() {
           }},1000);
 
           } catch (e) {
-            console.log(e)
+            console.log(`cavai error log: ${e}`)
           }
         });
