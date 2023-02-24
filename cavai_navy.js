@@ -1,8 +1,3 @@
-
-<script
-  data-creative-id='500-50045-50054-51291'
-  data-timestamp='2023-02-23T12:27:30.473Z'
->
 (function() {
   var s   = document.createElement('script');
   s.src   = 'https://delivery-3.cavai.com/assets/creatives/51291/clegztjaw0bmw70j4840s3qey/built/assets/stub.js?bust='+Date.now();
@@ -10,7 +5,6 @@
   s.setAttribute('data-click-macro', 'MACRO_PLACEHOLDER');
   document.head.appendChild(s);
 })();
-</script>
 
 var clickFunction = function() {
 
