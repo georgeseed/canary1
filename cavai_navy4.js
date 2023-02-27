@@ -7,12 +7,11 @@
   document.head.appendChild(s);
 })();
 
-
 var clickFunction = function() {
 
         /*cavai code for clicking*/
         const openBubble = new MouseEvent('click');
-        document.querySelector('.adbotic-chatbot-bubble-mob').dispatchEvent(openBubble);
+        document.querySelector('#creativeHeader [class*="expandable-icon"]').click()
 
         event.preventDefault();
         event.stopPropagation();
