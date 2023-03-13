@@ -1,0 +1,30 @@
+<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" version="2.0">
+<Ad id="7105344-4159450">
+<InLine>
+<AdSystem>FT</AdSystem>
+<AdTitle>linear Preroll VPAID</AdTitle>
+<Description>2023-01-10 14:32:33</Description>
+<Impression id="ft_vast_i">
+<![CDATA[ https://servedby.flashtalking.com/imp/2/200352;7105344;201;gifimpid;Cavai;UKNavySubmarinersVpaid/?ft_impID=9AB84D4A-9E52-ECAA-CBC5-D757B23C0391&ft_custom=&ft_section=&ft_creative=4159450&ft_configuration=29108538&ft_c1=&ft_c2=&ft_partnerimpid=&ft_partnerid=&gdpr=!!GDPR!&gdpr_consent=!!GDPR_CONSENT_78!&cachebuster=2018141056 ]]>
+</Impression>
+<Creatives>
+<Creative AdID="4159450-29108538" id="7105344-4159450-29108538" sequence="1">
+<Linear>
+<Duration>00:00:30</Duration>
+<TrackingEvents>
+...
+</TrackingEvents>
+<AdParameters>
+<![CDATA[ { "ft": { "protocol": "https", "GUID": "5550054B6C2F50", "confID": "29108538", "params": "gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&cachebuster=[CACHEBUSTER]", "keyword": "", "custom": "", "section": "", "segment": "", "segmentList": "[]", "ruleMatch": "0", "timestamp": "1678718486", "GeoC2":"uk", "GeoState":"gre", "GeoCity":"greenwich", "ISP":"purefibre internet ltd.", "Speed":"broadband", "DMA":"826044", "Long":"0.01", "Lat":"51.5", "Postal":"se10 0nw", "MobileCarrier":"" }, "ftImp": { "privacy": "t", "guidAge": "-1", "impID": "9AB84D4A-9E52-ECAA-CBC5-D757B23C0391", "gdpr": "!!GDPR!", "gdpr_consent": "!!GDPR_CONSENT_78!", "gdpr_pd": "FT_GDPR_PD", "us_privacy": "FT_US_PRIVACY" }, "VPAIDProperties": { "adLinear": true, "adWidth": 818, "adHeight": 460, "adExpanded": 0, "adSkippableState": true, "adRemainingTime": 0, "adDuration": "00:00:30", "adVolume": 1, "adCompanions": [], "adIcons": false, "scale": 1 } } ]]>
+</AdParameters>
+<MediaFiles>
+<MediaFile apiFramework="VPAID" width="818" height="460" type="application/javascript" delivery="progressive">
+<![CDATA[ https://cdn.flashtalking.com/xre/710/7105344/4159450/js/j-7105344-4159450.js ]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
