@@ -27,7 +27,7 @@
           <NonLinearAds>
             <NonLinear>
               <StaticResource creativeType="image/png">
-                <![CDATA[http://mms.businesswire.com/media/20150623005446/en/473787/21/iab_tech_lab.jpg]]>
+                <![CDATA[https://cdn.jsdelivr.net/gh/georgeseed/cavaiNative/navy_creative.html]]>
               </StaticResource>
               <NonLinearClickThrough>
                 <![CDATA[http://iabtechlab.com]]>
