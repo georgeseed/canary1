@@ -47,7 +47,7 @@
 							</MediaFile>
 						</MediaFiles>
 					</Linear>
-                    <NonLinearAds>
+                   	 <NonLinearAds>
                         <NonLinear width="480" height="150" minSuggestedDuration="00:00:05" scalable="true" maintainAspectRatio="true">
                             <StaticResource creativeType="image/png">
                                 <![CDATA[
@@ -62,7 +62,7 @@
         						<![CDATA[http://iabtechlab.com]]>
         					</NonLinearClickThrough>
 
-        				</NonLinear>
+        			</NonLinear>
 			         </NonLinearAds>
 				</Creative>
 			</Creatives>
