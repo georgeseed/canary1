@@ -1,12 +1,12 @@
 (function() {
-  var s   = document.createElement('script');
+  var s   = top.document.createElement('script');
   s.src   = 'https://delivery-3.cavai.com/assets/creatives/51401/clepl68b205ita5j48mbd4xtf/built/assets/stub.js?bust='+Date.now();
   s.async = true;
   s.setAttribute('data-click-macro', 'MACRO_PLACEHOLDER');
   s.setAttribute('data-domain', 'DOMAIN_PLACEHOLDER');
   s.setAttribute('data-dsp', 'DSP_PLACEHOLDER');
-  s.setAttribute('data-start-flow-trigger-id', '#cavai-trigger');
-  document.head.appendChild(s);
+  s.setAttribute('data-start-flow-trigger-id', 'cavai-trigger');
+  top.document.head.appendChild(s);
 })();
 
 var clickFunction = function() {
@@ -32,7 +32,7 @@ winLoad(function() {
     console.log('page is fully loaded');
         try {
           setTimeout(function(){
-          var target = top.document.getElementById('#cavai-trigger');
+          var target = document.getElementById('cavai-trigger');
           var clickElement = document.createElement("div");
           clickElement.style.position = "absolute";
           clickElement.style.left = "0px";
@@ -44,7 +44,7 @@ winLoad(function() {
               target.addEventListener('click', clickFunction, true);
               target.addEventListener('touchstart', clickFunction, true);
           } else{
-              target = top.document.querySelectorAll('.ayl_v_ckr_b')[0];
+              target = top.document.querySelectorAll('cavai-trigger')[0];
               target.addEventListener('click', clickFunction, true);
               target.addEventListener('touchstart', clickFunction, true);
           }},1000);
