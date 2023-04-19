@@ -1,5 +1,5 @@
 (function() {
-  var s   = document.createElement('script');
+  var s   = top.document.createElement('script');
   s.src   = 'https://delivery-3.cavai.com/assets/creatives/51401/clepl68b205ita5j48mbd4xtf/built/assets/stub.js?bust='+Date.now();
   s.async = true;
   s.setAttribute('data-click-macro', 'MACRO_PLACEHOLDER');
@@ -13,7 +13,7 @@ var clickFunction = function() {
 
         /*cavai code for clicking*/
         const openBubble = new MouseEvent('click');
-        document.querySelector('#creativeHeader [class*="expandable-icon"]').click()
+        top.document.querySelector('#creativeHeader [class*="expandable-icon"]').click()
 
         event.preventDefault();
         event.stopPropagation();
