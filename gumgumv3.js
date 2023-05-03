@@ -1,12 +1,10 @@
 (function() {
-  var s   = top.document.createElement('script');
-  s.src   = 'https://delivery-3.cavai.com/assets/creatives/51401/clepl68b205ita5j48mbd4xtf/built/assets/stub.js?bust='+Date.now();
+  var s   = document.createElement('script');
+  s.src   = 'https://delivery-3.cavai.com/assets/creatives/53050/clgnk7gx506rou6j4azn02c4i/built/assets/stub.js?bust='+Date.now();
   s.async = true;
   s.setAttribute('data-click-macro', 'MACRO_PLACEHOLDER');
-  s.setAttribute('data-domain', 'DOMAIN_PLACEHOLDER');
-  s.setAttribute('data-dsp', 'DSP_PLACEHOLDER');
-  s.setAttribute('data-start-flow-trigger-id', 'cavai-trigger');
-  top.document.head.appendChild(s);
+  s.setAttribute('data-start-flow-trigger-id', '#cavai-trigger');
+  document.head.appendChild(s);
 })();
 
 var clickFunction = function() {
